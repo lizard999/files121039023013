@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+        <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+      <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyChol5_duh9C5pq7T0vky680zlFIFSWPTU",
+        authDomain: "billapp-3f115.firebaseapp.com",
+        databaseURL: "https://billapp-3f115.firebaseio.com",
+        projectId: "billapp-3f115",
+        storageBucket: "",
+        messagingSenderId: "493797939066"
+      };
+      firebase.initializeApp(config);
+      </script>
+        <script src= "index.js"></script>
+    </head>
+    <body>
+      <p>Name Of Your Representative:</p>
+      <input type= "text" id= "representative"></input>
+      <h1 id= "email"></h1>
+      <h2 id= "party"></h2>
+      <h3 id= "district"></h3>
+      <h4 id= "address"></h4>
+      <h5 id = "phone"></h5>
+      <button onclick="emails()">Contact Your Representatives</button>
+
+      <h6>Sign Up</h6>
+      <p>Enter Username:</p>
+      <input type="text" id="key"></input>
+      <br>
+      <p>Enter Password:</p>
+      <input type=password id="value"></input>
+      <br><br>
+      <button onclick="storeData()">SIGN UP</button>
+      <br><br>
+
+
+      <h2>Log In</h2>
+       <p>Enter Username</p>
+       <input type="text" id="loadKey"></input>
+       <br>
+       <p>Enter Password</p>
+       <input type=password id="loadVal"></input>
+       <br><br>
+       <button onclick="signIn()">LOG IN</button>
+       <br>
+       <p id="loadValue"></p>
+
+
+
+    </body>
+
+</html>
