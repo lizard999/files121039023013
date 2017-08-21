@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-<div style="width:150px;height:150px;line-height:3em;overflow:auto;padding:5px">
         <link rel= "stylesheet" type="text/css" href="community.css">
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
@@ -21,19 +19,19 @@
       };
       firebase.initializeApp(config);
       </script>
-        <script src= "community.js"></script>
+      <script src= "community.js"></script>
+      <script src= "community.css"></script>
     </head>
     <body>
 
-      <h2><center>community forum</h2>
-      <hr>
-      <br>
-      <input style="height:200px;font-size:14pt;" type="text" id="key"></input>
 
-      <br>
-    </div>
-
-
+    <h2>community forum</h2>
+      <div id ="Messages" ></div>
+    <h3>write a message</h3>
+    <textarea rows="4" cols="50" id="key"></textarea>
+    <br>
+    <button onclick="storeTheData()">submit</button>
+    <br><br>
 
 
 

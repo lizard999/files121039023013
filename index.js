@@ -57,4 +57,5 @@ function storeData(){
       }
       document.getElementById('loadValue').innerHTML = toBeDisplayed;
     });
+    sessionStorage.setItem("username", key);
   }
