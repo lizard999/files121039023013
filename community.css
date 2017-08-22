@@ -1,11 +1,16 @@
 body {
-  text-align: left;
+  text-align: center;
   font-family: verdana;
-  font-size: 18px;
-  background-color: WhiteSmoke  ;
+  font-size: 15px;
+  background-color: WhiteSmoke;
 }
-  p.one {
-      outline-style: double;
-      outline-color: red;
-      outline-width: thick;
-  }
+
+p{
+text-align: center;
+}
+h2{
+  text-align: center;
+  font-family: verdana;
+  font-size: 30px;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyChol5_duh9C5pq7T0vky680zlFIFSWPTU",
+  authDomain: "billapp-3f115.firebaseapp.com",
+  databaseURL: "https://billapp-3f115.firebaseio.com",
+  projectId: "billapp-3f115",
+  storageBucket: "",
+  messagingSenderId: "493797939066"
+};
+firebase.initializeApp(config);
+</script>
+    <script src= "contactperson.js"></script>
+</head>
+
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="home.html">Home</a>
+  <a href="community.html">Community</a>
+  <a href="otherchecklist.html">Bills</a>
+  <a href="contactperson.html">Contact</a>
+  <a href="thefunfacts.html">Fun Facts</a>
+  <a href="ourgroup.html">About Us</a>
+
+  <p>Name Of Your Representative:</p>
+  <input type= "text" id= "representative"></input>
+  <h1 id= "email"></h1>
+  <h2 id= "party"></h2>
+  <h3 id= "district"></h3>
+  <h4 id= "address"></h4>
+  <h5 id = "phone"></h5>
+  <button onclick="emails()">Contact Your Representatives</button>
+</html>
+
+</body>
