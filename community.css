@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-p.serif {
-    font-family: "Times New Roman", Times, serif;
+body {
+  text-align: left;
+  font-family: verdana;
+  font-size: 18px;
+  background-color: WhiteSmoke  ;
 }
-
-</style>
-</head>
-<body>
-
-
-
-</body>
-</html>
+  p.one {
+      outline-style: double;
+      outline-color: red;
+      outline-width: thick;
+  }
