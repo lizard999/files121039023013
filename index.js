@@ -20,7 +20,7 @@ function storeData(){
         if (password === pass){
           toBeDisplayed = "SUCCESS"
           sessionStorage.setItem("username", key);
-          window.location.href = "home.html";
+          window.location.href = "HomeLiz.html";
           //window.open("home.html");
 
         } else {
