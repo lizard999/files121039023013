@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="community.css">
+
   <title>Contact</title>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 
@@ -22,20 +24,22 @@ firebase.initializeApp(config);
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="home.html">Home</a>
-  <a href="community.html">Community</a>
-  <a href="otherchecklist.html">Bills</a>
-  <a href="contactperson.html">Contact</a>
-  <a href="thefunfacts.html">Fun Facts</a>
-  <a href="ourgroup.html">About Us</a>
+  <ul>
+    <li><a href="HomeLiz.html">Home</a></li>
+    <li><a href="community.html">Community</a></li>
+    <li><a href="otherchecklist.html">Bills</a></li>
+    <li><a href="contactperson.html">Contact</a></li>
+    <li><a href="thefunfacts.html">Fun Facts</a></li>
+    <li><a href="ourgroup.html">About Us</a></li>
+  </ul>
 
   <p>Name Of Your Representative:</p>
   <input type= "text" id= "representative"></input>
-  <h1 id= "email"></h1>
-  <h2 id= "party"></h2>
+  <h3 id= "email"></h3>
+  <h3 id= "party"></h3>
   <h3 id= "district"></h3>
-  <h4 id= "address"></h4>
-  <h5 id = "phone"></h5>
+  <h3 id= "address"></h3>
+  <h3 id = "phone"></h3>
   <button onclick="emails()">Contact Your Representatives</button>
 </html>
 
